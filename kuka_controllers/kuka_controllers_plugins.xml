@@ -1,0 +1,15 @@
+<library path="lib/libkuka_controllers">
+
+  <class name="kuka_controllers/InverseDynamicController" type="kuka_controllers::InverseDynamicController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      The InverseDynamicsController compensates for inertial, gravitational, and coriolis effects on a robot.
+    </description>
+  </class>
+
+  <class name="kuka_controllers/KukaStateController" type="kuka_controllers::KukaStateController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      Info about InverseDynamic, jacobian etc.
+    </description>
+  </class>
+
+</library>

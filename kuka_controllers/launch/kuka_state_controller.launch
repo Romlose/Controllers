@@ -1,0 +1,8 @@
+<launch>
+
+   <rosparam file="$(find kuka_controllers)/config/state_controller.yaml" command="load"/>
+
+   <node name="controller_manager" pkg="controller_manager" type="spawner" 
+         respawn="false" output="screen" args="kuka_controllers"/> 
+
+</launch>

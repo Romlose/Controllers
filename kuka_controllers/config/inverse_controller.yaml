@@ -1,0 +1,4 @@
+kuka_controllers:
+  type: kuka_controllers/InverseDynamicController
+  root_name: base_link
+  tip_link: tool0
